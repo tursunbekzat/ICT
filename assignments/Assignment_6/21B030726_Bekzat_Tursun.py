@@ -1,0 +1,1 @@
+with open('text.txt', 'r+') as f: f.write('\n'+str(int(f.readline()) * int(f.readline()) - int(f.readline())))
